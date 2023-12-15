@@ -1,5 +1,5 @@
 import { MiContexto } from "./crearContext"
-import { useTasks } from "../hooks/useTasks"
+import { useTasks } from "./useTask"
     
 const ContextTask = ({children}) =>{
     const [tareasList,setTarea, addTarea, deleteTarea, deleteAllTareas, editarTarea, checkTarea] = useTasks();

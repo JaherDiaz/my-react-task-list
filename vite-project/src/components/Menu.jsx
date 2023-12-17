@@ -8,19 +8,19 @@ export default function Menu() {
       <Breadcrumb separator="-">
         <BreadcrumbItem>
           {" "}
-          <Link className="linksMenu" to="/">
+          <Link className="linksMenu1" to="/">
             Home
           </Link>
         </BreadcrumbItem>
 
         <BreadcrumbItem>
-          <Link className="linksMenu" to="/tareas">
-            Aplicación de Tareas
+          <Link className="linksMenu2" to="/tareas">
+             Tareas
           </Link>
         </BreadcrumbItem>
 
         <BreadcrumbItem>
-          <Link className="linksMenu" to="/Sobre_Nosotros">
+          <Link className="linksMenu3" to="/Sobre_Nosotros">
             Sobre Nosotros
           </Link>
         </BreadcrumbItem>

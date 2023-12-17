@@ -43,14 +43,14 @@ export default function TaskInput() {
         <Input id="txt1" type="text" name="txt1" placeholder="Ingrese nueva tarea" onChange={handleChangeTarea} value={inputTarea} />
         <Input id="txt2" type="text" name="txt2" placeholder="Ingrese una descripción" onChange={handleChangeDescripcion} value={inputDescripcion} />
         <IconButton colorScheme="blue" type="submit" width="45px" height="40px" marginLeft="20px" icon={<AddIcon />} onClick={handleNuevaTareaClick} />
-        <Alert width="570px" flexWrap="wrap" justifyItems="end" borderRadius="15px" display={displayError} status="error">
+        <Alert width="570px" flexWrap="wrap" justifyItems="end" borderRadius="5px" display={displayError} status="error">
           <AlertIcon />
-          <AlertTitle>¡El nombre de la tarea es muy corto!</AlertTitle>
-          <AlertDescription paddingLeft="35px">El nombre de la tarea debe tener más de 3 caracteres.</AlertDescription>
+          <AlertTitle>El nombre de la tarea es muy corto</AlertTitle>
+          <AlertDescription paddingLeft="35px">Debe tener más de 3 caracteres</AlertDescription>
         </Alert>
-        <Alert borderRadius="15px" display={displaySuccess} status="success">
+        <Alert borderRadius="5px" display={displaySuccess} status="success">
           <AlertIcon />
-          <AlertTitle>Se ha añadido una tarea satisfactoriamente.</AlertTitle>
+          <AlertTitle>Se ha añadido una tarea satisfactoriamente</AlertTitle>
         </Alert>
       </form>
     </div>

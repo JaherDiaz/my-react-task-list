@@ -7,7 +7,7 @@ const Toggle = () => {
     <div>
       <Flex >
         <Button size="xs"  onClick={() => toggleColorMode()}>
-         Tema {colorMode}
+         modo {colorMode}
         </Button>
       </Flex>
     </div>

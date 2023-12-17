@@ -53,7 +53,7 @@ export default function Task(props) {
               <AlertDialogOverlay>
                 <AlertDialogContent>
                   <AlertDialogHeader fontSize="lg" fontWeight="bold">
-                    Eliminar Tarea
+                    Borrar tarea
                   </AlertDialogHeader>
 
                   <AlertDialogBody>¿Estás seguro?</AlertDialogBody>
@@ -63,7 +63,7 @@ export default function Task(props) {
                       Cancelar
                     </Button>
                     <Button colorScheme="red" onClick={handleEliminarTareaClick} ml={3}>
-                      Eliminar
+                      Borrar 
                     </Button>
                   </AlertDialogFooter>
                 </AlertDialogContent>

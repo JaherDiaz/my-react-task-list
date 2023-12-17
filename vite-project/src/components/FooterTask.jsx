@@ -14,15 +14,15 @@ export default function FooterTask() {
   };
   return (
     <div className="Footer">
-      <p className="tareasPendientes">Tienes {numeroTareasPendientes} tareas pendientes</p>
+      <p className="tareasPendientes">¡Tienes {numeroTareasPendientes} tareas pendientes!</p>
       <Button colorScheme="red" type="button" marginRight="75px" fontWeight="600" width="130px" height="50px" onClick={onOpen}>
-        Limpiar Todo
+        Limpiar todo
       </Button>
       <AlertDialog isOpen={isOpen} leastDestructiveRef={cancelRef} onClose={onClose}>
         <AlertDialogOverlay>
           <AlertDialogContent>
             <AlertDialogHeader fontSize="lg" fontWeight="bold">
-              Eliminar Todas las Tareas
+              Eliminar todas las tareas
             </AlertDialogHeader>
 
             <AlertDialogBody>¿Estás seguro?</AlertDialogBody>

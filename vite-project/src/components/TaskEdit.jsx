@@ -37,7 +37,7 @@ export default function TaskEdit(props) {
           <AlertDialogOverlay>
             <AlertDialogContent>
               <AlertDialogHeader fontSize="lg" fontWeight="bold">
-                Guardar Cambios
+                Guardar cambios
               </AlertDialogHeader>
 
               <AlertDialogBody>¿Estás seguro?</AlertDialogBody>

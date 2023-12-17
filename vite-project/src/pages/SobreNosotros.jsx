@@ -9,7 +9,7 @@ export default function SobreNosotros() {
       </Heading>
       <Text paddingLeft="35px" className="parrafo-nosotros">
         <Highlight query={"Jaher Steewarth Díaz Rubiano."} styles={{ px: "1", py: "1", rounded: "full", bg: "#b2bef5" }}>
-          La página web ha sido realizada por una sola persona, esa seria el desarrollador full stack Erick Jaher Steewarth Díaz Rubiano. Esta aplicación de listado de tareas es capaz de permitir al usuario
+          La página web ha sido realizada por una sola persona, esa seria el desarrollador full stack Jaher Steewarth Díaz Rubiano. Esta aplicación de listado de tareas es capaz de permitir al usuario
           añadir multiples tareas con o sin descripción a su respectivo listado, el usuario las puede marcar las tareas como ya realizadas, tambien puede editar las tareas y eliminarlas.
         </Highlight>
       </Text>

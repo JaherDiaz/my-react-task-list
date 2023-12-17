@@ -3,7 +3,6 @@
 }
 body {
   display: flex;
-  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
 
@@ -296,12 +295,12 @@ body {
 }
 
 .Menu {
-  display: flex;
-  gap: 10px;
   justify-content: start;
   padding-top: 5px;
   padding-bottom: 8px;
-  padding-left: 15px;
+  padding-left: 5px;
+  display: grid;
+  grid-column: 50px;
 }
 
 .parrafo-nosotros {
@@ -310,7 +309,7 @@ body {
 
 .tareas-page {
   padding-left: 15px;
-  margin-top: -15px;
+  margin-top: 15px;
 }
 
 .sobreNosotrosPage{
@@ -321,12 +320,24 @@ body {
   margin-top: 15px;
 }
 
-.linksMenu {
+.linksMenu1{
+  
+  font-weight: 600;
+  border-width: 2px;
+  border-radius: 5px;
+  
+}
+.linksMenu2 {
+  font-weight: 600;
+  border-width: 2px;
+  border-radius: 5px;
+   ;
+}
+.linksMenu3 {
   font-weight: 600;
   border-width: 2px;
   border-radius: 5px;
 }
-
 .linksMenu:hover {
   background-color: #b2bef5;
 }
